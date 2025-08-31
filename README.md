@@ -1,2 +1,5 @@
-# Backend-Task-2
-Create a backend service to handle messages submitted through a contact form.
+In-memory storage: Messages are stored in an array (data resets if the server restarts)
+
+Endpoints:
+● POST /contact → Accepts form data {name, email, message} and stores it in memory.
+● GET /contact → Returns all saved contact messages.
